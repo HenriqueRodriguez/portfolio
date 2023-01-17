@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#produtos {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+#produtos img {
+    width: 100%;
+}
+
+#produtos .produto {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#carrinho {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    vertical-align: top;
+}
+
+#carrinho #itens-carrinho {
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
